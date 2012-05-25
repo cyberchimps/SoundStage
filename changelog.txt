@@ -1,0 +1,7 @@
+SoundStage Changelog
+
+****************************
+
+Version 1.0.1 (05-25-12)
+-Initial release.
+
