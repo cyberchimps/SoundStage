@@ -54,7 +54,7 @@ $options
 <p>Thank you for using Response.</p>
 ")
 	->section("Design")
-		>open_outersection()
+		->open_outersection()
 			->checkbox($themeslug."_responsive_video", "Responsive Videos")
 		->close_outersection()
 		->subsection("Typography")
@@ -69,7 +69,7 @@ $options
 			->textarea($themeslug."_custom_header_element", "Custom HTML")
 		->close_outersection()
 		->subsection("Banner Options")
-			>upload($themeslug."_banner", "Banner Image")
+			->upload($themeslug."_banner", "Banner Image")
 			->text($themeslug."_banner_url", "Banner URL", array('default' => home_url()))
 		->subsection_end()		
 			->subsection("Header Options")
