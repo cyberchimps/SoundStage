@@ -54,7 +54,7 @@ $options
 <p>Thank you for using Response.</p>
 ")
 	->section("Design")
-		->open_outersection()
+		>open_outersection()
 			->checkbox($themeslug."_responsive_video", "Responsive Videos")
 		->close_outersection()
 		->subsection("Typography")
